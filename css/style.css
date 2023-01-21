@@ -1,0 +1,67 @@
+img{
+    max-width: 100%;
+}
+
+:root{
+    --darkblue--: #2c3e50;
+    --blue--: #3a556d;
+    --green--: #19bc9c;
+}
+
+.main-header,
+.main-footer .copyright{
+background-color: var(--darkblue--);
+}
+
+.start, 
+.about {
+    background-color: var(--green--);
+}
+
+.main-footer .info{
+    background-color: var(--blue--);
+}
+
+.main-header,
+.main-content,
+.main-footer{
+    color: white;
+}
+
+.portfolio,
+.contact{
+    color: var(--darkblue--);
+}
+
+
+/* mediaquery MOBILE FIRST */
+@media (min-width: 576px) { 
+    
+}
+
+@media (min-width: 768px) { 
+
+}
+
+@media (min-width: 992px) { 
+
+}
+
+@media (min-width: 1200px) { 
+
+}
+
+@media (min-width: 1400px) { 
+
+}
+
+
+
+/* debug */
+.row{
+    border: 1px solid red;
+}
+
+.row > *{
+    border: 1px solid slateblue;
+}
