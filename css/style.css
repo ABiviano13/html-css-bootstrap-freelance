@@ -106,27 +106,11 @@ background-color: var(--darkblue--);
 }
 
 
-
-/* .item-hero:before,
-.item-hero::after{
-    content: '';
-    display: inline-block;
-    align-items: center;
-    background-color: currentColor;
-    width: 2%;
-    height: 2px;
-} */
-
-
 /* mediaquery MOBILE FIRST */
 @media (min-width: 576px) { 
     .text-about-p{
         padding-top: 10px;
     }
-}
-
-@media (min-width: 768px) { 
-
 }
 
 @media (min-width: 992px) { 
@@ -141,17 +125,3 @@ background-color: var(--darkblue--);
     }
 }
 
-@media (min-width: 1400px) { 
-
-}
-
-
-
-/* debug */
-/* .row{
-    border: 1px solid red;
-}
-
-.row > *{
-    border: 1px solid slateblue;
-} */
