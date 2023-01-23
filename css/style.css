@@ -59,6 +59,10 @@ background-color: var(--darkblue--);
     padding-left: 10px;
 }
 
+.col-button button{
+    border-color: currentColor;
+}
+
 /* .item-hero:before,
 .item-hero::after{
     content: '';
@@ -72,7 +76,9 @@ background-color: var(--darkblue--);
 
 /* mediaquery MOBILE FIRST */
 @media (min-width: 576px) { 
-    
+    .text-about-p{
+        padding-top: 10px;
+    }
 }
 
 @media (min-width: 768px) { 
@@ -80,7 +86,9 @@ background-color: var(--darkblue--);
 }
 
 @media (min-width: 992px) { 
-
+    .text-about-p{
+        padding-top: 0;
+    }
 }
 
 @media (min-width: 1200px) { 
@@ -94,10 +102,10 @@ background-color: var(--darkblue--);
 
 
 /* debug */
-.row{
+/* .row{
     border: 1px solid red;
 }
 
 .row > *{
     border: 1px solid slateblue;
-}
+} */
