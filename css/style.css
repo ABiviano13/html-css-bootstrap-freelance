@@ -2,6 +2,12 @@ img{
     max-width: 100%;
 }
 
+ul,
+ol,
+menu{
+    list-style: none;
+}
+
 :root{
     --darkblue--: #2c3e50;
     --blue--: #3a556d;
@@ -13,7 +19,7 @@ img{
 background-color: var(--darkblue--);
 }
 
-.start, 
+.hero, 
 .about {
     background-color: var(--green--);
 }
@@ -32,6 +38,36 @@ background-color: var(--darkblue--);
 .contact{
     color: var(--darkblue--);
 }
+
+.img-avatar{
+    width: 50%;
+}
+
+.star:before,
+.star:after{
+    content: '';
+    display: inline-block;
+    align-items: center;
+    background-color: currentColor;
+    width: 30%;
+    height: 3px;
+}
+
+.list-hero{
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+/* .item-hero:before,
+.item-hero::after{
+    content: '';
+    display: inline-block;
+    align-items: center;
+    background-color: currentColor;
+    width: 2%;
+    height: 2px;
+} */
 
 
 /* mediaquery MOBILE FIRST */
