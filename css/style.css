@@ -8,6 +8,11 @@ menu{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
 input,
 textarea{
     border: 0;
@@ -39,11 +44,13 @@ background-color: var(--darkblue--);
 .main-content,
 .main-footer{
     color: white;
+    font-size: 16px;
 }
 
 .portfolio,
 .contact{
     color: var(--darkblue--);
+    font-size: 16px;
 }
 
 .img-avatar{
@@ -76,6 +83,30 @@ background-color: var(--darkblue--);
     border: none;
 }
 
+.icon-footer > a{
+    border: 1px solid currentColor;
+    border-radius: 999px;
+    font-size: 13px;
+}
+
+.a-icon-fl{
+    padding: 8px 11px;
+}
+
+.a-icon-tg{
+    padding: 8px 8px;
+}
+
+.text-green{
+    color: var(--green--);
+}
+
+.text-small{
+    font-size: 14px;
+}
+
+
+
 /* .item-hero:before,
 .item-hero::after{
     content: '';
@@ -105,7 +136,9 @@ background-color: var(--darkblue--);
 }
 
 @media (min-width: 1200px) { 
-
+    .row-info{
+        gap: none;
+    }
 }
 
 @media (min-width: 1400px) { 
